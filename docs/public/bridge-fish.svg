@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="鱼心快跑：戴着安全帽、正把一块木板架到对面悬崖上的青色小鱼">
+  <defs>
+    <pattern id="dotgrid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.6" fill="#0E201C" opacity="0.075" />
+    </pattern>
+  </defs>
+
+  <rect width="1024" height="1024" rx="120" fill="#F6F4EE" />
+  <rect width="1024" height="1024" rx="120" fill="url(#dotgrid)" />
+
+  <!-- 水面虚线：这条缝就是"模型"和"现场"之间那段没人管的地方 -->
+  <g stroke="#0A958A" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.5">
+    <path d="M470 812 q 46 -18 92 0" />
+    <path d="M448 866 q 52 -20 104 0" />
+    <path d="M474 920 q 46 -18 92 0" />
+  </g>
+
+  <!-- 左岸（实验室这边） -->
+  <path d="M24 668 H 436 L 404 748 L 430 830 L 396 984 H 24 Z" fill="#0E201C" opacity="0.82" />
+  <!-- 右岸（客户现场那边） -->
+  <path d="M612 624 H 1000 V 984 H 640 L 668 866 L 634 744 Z" fill="#0E201C" opacity="0.62" />
+
+  <!-- 右岸上那面还没插稳的旗：现场在等你 -->
+  <g transform="translate(864 470)">
+    <path d="M0 -12 V 214" stroke="#0E201C" stroke-width="14" stroke-linecap="round" />
+    <path d="M6 -6 L 128 30 L 6 66 Z" fill="#E85734" />
+  </g>
+
+  <!-- 木板（还没架好的桥） -->
+  <g transform="rotate(-7 512 566)">
+    <rect x="212" y="540" width="620" height="48" rx="20" fill="#A9CC3F" />
+    <path d="M282 564 H 800" stroke="#0E201C" stroke-width="7" stroke-linecap="round" stroke-dasharray="6 26" opacity="0.35" />
+  </g>
+
+  <!-- 小鱼：站在左岸边缘，两鳍把木板顶起来，另一只鳍夹着笔记本 -->
+  <g transform="translate(322 662) rotate(-8)">
+    <!-- 腿 -->
+    <g stroke="#0A958A" stroke-width="30" stroke-linecap="round" fill="none">
+      <path d="M-30 96 L -76 176" />
+      <path d="M26 100 L 42 180" />
+    </g>
+    <g fill="#0A958A">
+      <ellipse cx="-84" cy="184" rx="30" ry="17" />
+      <ellipse cx="48" cy="188" rx="30" ry="17" />
+    </g>
+
+    <!-- 尾巴 -->
+    <path d="M-142 -6 L -256 -96 Q -224 -6 -256 84 Z" fill="#0A958A" />
+
+    <!-- 身体 -->
+    <ellipse rx="158" ry="112" fill="#0A958A" />
+    <ellipse cx="24" cy="36" rx="114" ry="56" fill="#35D8C4" />
+
+    <!-- 背鳍 -->
+    <path d="M-52 -100 Q -8 -164 42 -108 Z" fill="#046B63" />
+
+    <!-- 向上顶木板的两只前鳍 -->
+    <g stroke="#0A958A" stroke-width="32" stroke-linecap="round" fill="none">
+      <path d="M74 -66 Q 128 -140 196 -150" />
+      <path d="M18 -84 Q 34 -152 96 -186" />
+    </g>
+
+    <!-- 夹在 body 边的笔记本 -->
+    <g transform="translate(-118 62) rotate(-14)">
+      <rect x="-58" y="-40" width="116" height="76" rx="10" fill="#3568D4" />
+      <rect x="-44" y="-28" width="88" height="52" rx="6" fill="#F6F4EE" opacity="0.85" />
+      <path d="M-30 -6 H 26 M -30 10 H 8" stroke="#0E201C" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    </g>
+
+    <!-- 眼睛（盯着对面，认真到有点斗鸡） -->
+    <circle cx="70" cy="-34" r="16" fill="#0E201C" />
+    <circle cx="76" cy="-38" r="5" fill="#F6F4EE" />
+    <!-- 嘴 -->
+    <path d="M118 30 q 22 18 42 2" stroke="#0E201C" stroke-width="11" fill="none" stroke-linecap="round" />
+
+    <!-- 安全帽 -->
+    <g transform="translate(46 -116) rotate(9)">
+      <path d="M-98 22 A 98 86 0 0 1 98 22 Z" fill="#E85734" />
+      <rect x="-120" y="16" width="240" height="28" rx="14" fill="#E85734" />
+      <rect x="-11" y="-72" width="22" height="36" rx="11" fill="#FF7C5E" />
+      <path d="M-54 -30 A 60 54 0 0 1 4 -62" stroke="#FF7C5E" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9" />
+    </g>
+
+    <!-- 汗珠 -->
+    <g fill="#3568D4">
+      <path d="M158 -176 q 16 26 0 40 q -16 -14 0 -40 Z" />
+      <path d="M-6 -208 q 14 22 0 34 q -14 -12 0 -34 Z" opacity="0.8" />
+    </g>
+  </g>
+
+  <!-- 角标：从这岸到那岸 -->
+  <g transform="translate(150 226)">
+    <circle r="52" fill="none" stroke="#E85734" stroke-width="10" />
+    <path d="M-24 8 H 14 M -2 -8 L 14 8 L -2 24" stroke="#0A958A" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

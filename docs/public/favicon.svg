@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="64" height="64">
+  <rect width="1024" height="1024" rx="220" fill="#0E201C"/>
+  <g transform="translate(512 512) scale(0.7) translate(-512 -512)">
+    <path d="M72 496H952V568H72ZM144 500C144 300 300 152 512 152C724 152 880 300 880 500L792 500C792 340 660 240 512 240C364 240 232 340 232 500ZM292 300H352V496H292ZM672 300H732V496H672ZM144 496H232V872H144ZM792 496H880V872H792Z" fill="#35D8C4"/>
+  </g>
+</svg>
